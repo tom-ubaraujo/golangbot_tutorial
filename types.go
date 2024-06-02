@@ -51,6 +51,7 @@ func main() {
 
 	//unsigned integers
 	/*
+		//byte is an alias of uint8
 		uint8: represents 8 bit unsigned integers
 		size: 8 bits
 		range: 0 to 255
@@ -96,15 +97,12 @@ func main() {
 	cmul := c1 * c2
 	fmt.Println("product:", cmul)
 
-	//other numeric types
-	//byte is an alias of uint8
-	//rune is an alias of int32
-
 	//string type
 	first := "Ugleiston"
 	last := "Araújo"
 	name := first + " " + last
 	fmt.Println("My name is:", name)
+	//rune is an alias of int32
 
 	//type conversion
 	i := 55            //int
